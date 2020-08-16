@@ -7,7 +7,6 @@ const TODOS_LS = "todo";
 
 
 const delTodo = (obj) =>{
-    console.log(obj);
     const newTodoArr = todoArr.filter((item)=>{
         return String(item.id) !== obj.id;
     });

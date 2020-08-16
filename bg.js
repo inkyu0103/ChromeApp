@@ -15,7 +15,6 @@ const paintImg = (imgNum) => {
 
 const getNumber = () =>{
     const number = Math.floor(Math.random()*IMG_NUMBER);
-    console.log(number);
     return number;
 }
 

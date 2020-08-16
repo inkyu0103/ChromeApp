@@ -10,7 +10,6 @@ const paintName  = (name) =>{
 }
 
 const saveName = (name) =>{
-    console.log(name);
     localStorage.setItem("Name",JSON.stringify(name));
     paintName(name);
 }
