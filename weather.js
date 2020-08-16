@@ -37,7 +37,7 @@ const handleGeoError = () =>{
     console.log('Can not access');
 }
 const askForCoords = () =>{
-    navigator.geolocation.getCurrentPosition(handleGeoSucces, handleGeoError);
+    navigator.geolocation.getCurrentPosition(handleGeoSuccess, handleGeoError);
 }
 
 
